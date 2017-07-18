@@ -1,0 +1,89 @@
+{
+  "icon": "magento.png",
+  "solution": {
+    "active": true,
+    "hidden": false,
+    "marketingInfo": {
+      "categoryIds": [
+        "OTHERS"
+      ],
+      "description": "Magento is an open-source e-commerce platform written in PHP. It is highly customizable with support for extensions that include Accounting, Customer Support, Payments, Analytics and more.",
+      "documentations": [
+        {
+          "destinations": [
+            "DESTINATION_SOLUTION_DETAILS",
+            "DESTINATION_POST_DEPLOY"
+          ],
+          "title": "Magento Documentation",
+          "url": "http://docs.magento.com/m2/ce/user_guide/getting-started.html"
+        }
+      ],
+      "name": "Magento",
+      "packagedSoftwareGroups": [
+        {
+          "components": [
+            {
+              "name": "Debian",
+              "version": "8"
+            }
+          ],
+          "type": "SOFTWARE_GROUP_OS"
+        },
+        {
+          "components": [
+            {
+              "name": "Magento",
+              "version": "2.1.6"
+            },
+            {
+              "name": "MySQL",
+              "version": "5.7.18"
+            },
+            {
+              "name": "PHP",
+              "version": "7"
+            },
+            {
+              "name": "Redis",
+              "version": "2.8.17"
+            }
+          ]
+        }
+      ],
+      "priceDescription": {
+        "description": "Magento will be deployed to a single Compute Engine instance."
+      },
+      "searchMetaDescription": "magento ecommerce",
+      "searchMetaKeywords": [
+        "magento ecommerce commerce"
+      ],
+      "supportInfo": "Google does not offer support for this solution. However, community support is available on <a href=\"http://stackoverflow.com/questions/tagged/magento/\">Stack Overflow</a>. Additional support is available on <a href=\"https://community.magento.com/\">community forums</a>.",
+      "tagline": "eCommerce platform with a variety of extensions",
+      "url": "https://magento.com/",
+      "userFacetBindings": [
+        {
+          "facetId": "category",
+          "facetValueId": "others"
+        }
+      ],
+      "version": "2.1.5-1"
+    },
+    "partnerId": "click-to-deploy-images",
+    "solutionId": "magento",
+    "solutionPublishedName": "click-to-deploy-images/magento"
+  },
+  "solution_default_price": {
+    "description": "Magento will be deployed to a single Compute Engine instance.",
+    "entries": [
+      {
+        "monthlyPriceInMicros": "102200000",
+        "title": "VM Instance: n1-standard-4"
+      }
+    ],
+    "monthlySoftwarePriceInMicros": "1",
+    "useDynamicPricing": true
+  },
+  "solution_software_price_description": {
+    "entries": []
+  }
+}

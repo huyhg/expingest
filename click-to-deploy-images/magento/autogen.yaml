@@ -1,0 +1,46 @@
+singleVm:
+  applicationStatus:
+    type: WAITER
+    waiter:
+      waiterTimeoutSecs: 300
+  bootDisk:
+    diskSize:
+      defaultSizeGb: 10
+      minSizeGb: 10
+    diskType:
+      defaultType: pd-standard
+  firewallRules:
+  - port: '80'
+    protocol: TCP
+  - port: '443'
+    protocol: TCP
+  images:
+  - name: magento-v20170712
+    project: click-to-deploy-images
+  machineType:
+    defaultMachineType:
+      gceMachineType: n1-standard-1
+    minimum:
+      cpu: 1
+      ramGb: 1.69
+  passwords:
+  - allowSpecialChars: false
+    displayLabel: Magento MySQL
+    length: 8
+    metadataKey: magento-db-password
+    username: magento
+  - allowSpecialChars: false
+    displayLabel: MySQL root
+    length: 8
+    metadataKey: mysql-root-password
+    username: root
+  - allowSpecialChars: false
+    displayLabel: Magento Admin
+    length: 8
+    metadataKey: magento-admin-password
+    username: admin
+  siteUrl:
+    scheme: HTTP
+  adminUrl:
+    scheme: HTTP
+    path: admin
