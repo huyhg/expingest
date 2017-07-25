@@ -1,0 +1,82 @@
+{
+  "icon": "hardened-webserver-nodejs-php-win-server-2016.png",
+  "solution": {
+    "active": true,
+    "hidden": false,
+    "marketingInfo": {
+      "categoryIds": [
+        "OTHERS"
+      ],
+      "description": "<p>While deploying instances on public cloud, the biggest challenge faced by enterprises is to meet hardening requirements for these servers.  Infosec requirements for hardening the servers especially production web servers are quite stringent.Server hardening process provides a solid edifice to build and deploy secure apps. These Instances are hardened based on Microsoft security baseline recommendations, Industry best practices and CIS hardening checklists.</p>\n\n<p> Customers who are planning to harden their web servers for production deployment should look no further. This image includes IIS with <i>ASP.Net</i> (3.5 and 4.6), <i>PHP</i> and <i>Node.js</i> specially designed for enterprise deployments. \n</p>\n<p>\nThis is a single web server image which takes care of multiple different application framework deployments, making it easy for you to deploy any kind of application (.Net/PHP/Nodejs) within the same machine.</p>\n<p>\nASP.Net on IIS needs no introduction, and availability of multiple versions of .Net framework helps users to target legacy as well as applications using the latest .Net framework\n</p>\n<p>\nNode.js is an open-source, cross-platform run time environment for developing server-side Web applications. Although Node.js is not a JavaScript framework, many of its basic modules are written in JavaScript, and developers can write new modules in JavaScript. The run time environment interprets JavaScript using Google\u2019s V8 JavaScript engine.</p>\n<p>\nPHP is a server-side scripting language designed for web development but also used as a general-purpose programming language. Originally created by Rasmus Lerdorf in 1994, the PHP reference implementation is now produced by The PHP Group. PHP originally stood for Personal Home Page,  but it now stands for the recursive backronym PHP: Hypertext Processor.</p>",
+      "documentations": [
+        {
+          "description": "Steps to get you started quickly including webroot path and port information.",
+          "destinations": [
+            "DESTINATION_SOLUTION_DETAILS",
+            "DESTINATION_POST_DEPLOY"
+          ],
+          "title": "Getting Started Guide",
+          "url": "http://secureanycloud.com/webserver-with-nodejs-php-on-cloud-technical-support-cloud-help-azure-aws-opensource-cognosys/?target=google"
+        },
+        {
+          "description": "How to connect to your instance with Admin rights",
+          "destinations": [
+            "DESTINATION_SOLUTION_DETAILS",
+            "DESTINATION_POST_DEPLOY"
+          ],
+          "title": "Connect to Your VM",
+          "url": "http://secureanycloud.com/google-cloud-connect-using-rdp-to-windows-instance-on-gcp/"
+        }
+      ],
+      "eulaUrl": "http://secureanycloud.com/end-user-license-agreement/",
+      "name": "Node.js, .Net & PHP on Hardened Windows Server 2016",
+      "packagedSoftwareGroups": [
+        {
+          "components": [
+            {
+              "name": "Windows Server",
+              "version": "2016"
+            }
+          ],
+          "type": "SOFTWARE_GROUP_OS"
+        }
+      ],
+      "priceDescription": {},
+      "searchMetaDescription": "Hardened Webserver with Node.js, .Net and PHP on Windows Server 2016",
+      "searchMetaKeywords": [
+        "Node.Js on Windows Server 2016",
+        "PHP on Windows Server 2016",
+        "Node.js on GCP",
+        "PHP on GCP",
+        "IIS ASP.net on GCP",
+        "Cognosys",
+        "Hardened Web server on GCP",
+        "Windows 2016 on Google cloud platform"
+      ],
+      "supportInfo": "<p>Support can be availed in following ways: \n<ul>\n<li> Send Email to Support@SecureAnyCloud.com </li>\n<li> Reach out to <a href=\"http://www.secureanycloud.com\">Live Support </a>  </li> \n</ul></p>",
+      "supportUrl": "http://secureanycloud.com/support/",
+      "tagline": "Hardened Webserver with Multiple frameworks",
+      "url": "http://secureanycloud.com/webserver-with-nodejs-php-on-cloud-technical-support-cloud-help-azure-aws-opensource-cognosys/",
+      "userFacetBindings": [
+        {
+          "facetId": "category",
+          "facetValueId": "developer-stacks"
+        },
+        {
+          "facetId": "category",
+          "facetValueId": "developer-tools"
+        }
+      ],
+      "version": "1.0.2"
+    },
+    "partnerId": "cognosys-public",
+    "solutionId": "hardened-webserver-nodejs-php-win-server-2016",
+    "solutionPublishedName": "cognosys-public/hardened-webserver-nodejs-php-win-server-2016"
+  },
+  "solution_default_price": {
+    "useDynamicPricing": true
+  },
+  "solution_software_price_description": {
+    "entries": []
+  }
+}
