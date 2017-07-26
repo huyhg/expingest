@@ -32,3 +32,5 @@ singleVm:
         </a>
   ipForwarding:
     defaultOff: true
+  application_status:
+    type: NONE
